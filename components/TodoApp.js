@@ -17,7 +17,7 @@ class TodoApp extends Component {
 
     return (
       <div id="reactApp">
-        <TodoTitle title="React Todo App"/>
+        <TodoTitle title="React/Redux Todo App"/>
         <TodoForm placeHolder="What needs to be Done?" />
         <TodoList todos={todos} />
       </div>
